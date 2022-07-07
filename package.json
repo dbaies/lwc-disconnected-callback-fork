@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/dbaies.lwc-disconnected-callback-fork-l5aukkow",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve PtS6p1mpcNaSdqoPghjM --open"
+  }
+}

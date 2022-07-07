@@ -1,0 +1,13 @@
+<template>
+	<div class="app slds-p-around_x-large">
+		<h1 class="slds-text-heading_large slds-var-m-bottom_x-small">Disconnected Callback Demo, check console logs!</h1>
+		Try toggling Show Child checkbox to observe Disconnected Callback.
+
+		<lightning-input class="slds-var-m-top_x-small" onchange={handleChange} type="checkbox" label="Show Child"
+			checked={showChild}>
+		</lightning-input>
+
+		<c-child if:true={showChild}></c-child>
+
+	</div>
+</template>
